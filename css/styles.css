@@ -126,10 +126,48 @@ h2 {
 	
 	
 /** Social **/
+<<<<<<< HEAD
 
 .btn-rounded-lg{width:30px;width:30px;padding:5px;border-radius:15px}.btn-rounded-2x{width:50px;width:50px;padding:10px;border-radius:25px}.kv-social-bar a{display:inline-block;text-align:center;margin:auto 5px auto auto;padding:auto}.kv-gp-square:before{content:"\f0d4"}.kv-gp:before{content:"\f0d5"}.kv-tw-square:before{content:"\f081"}.kv-fb-square:before{content:"\f082"}.kv-tw:before{content:"\f099"}.kv-fb:before{content:"\f09a"}.kv-gh:before{content:"\f09b"}.kv-gh-alt:before{content:"\f113"}.kv-gh-square:before{content:"\f092"}.kv-in:before{content:"\f0e1"}.kv-in-square:before{content:"\f08c"}
 	
 .text-muted{color:#777}.text-primary{color:#428bca}a.text-primary:hover{color:#3071a9}.text-success{color:#3c763d}a.text-success:hover{color:#2b542c}.text-info{color:#31708f}a.text-info:hover{color:#245269}.text-warning{color:#8a6d3b}a.text-warning:hover{color:#66512c}.text-danger{color:#a94442}a.text-danger:hover{color:#843534}
+=======
+.top-social{
+	float:left;
+	width:30%
+}
+ul.social {
+	margin-top: 17px;
+	float:right;
+}
+ul.social li{
+	display:inline-block;
+	margin:0px 10px;
+}
+ul.social li i{
+	width:20px;
+	height:20px;
+	background:url(../img/img-sprite.png) no-repeat;
+	display:inline-block;
+	cursor: pointer;
+}
+ul.social li i:hover{
+	opacity:0.5;
+}
+ul.social li i.fa{
+	background-position:0px 0px;
+}
+ul.social li i.tw{
+	background-position:-24px 0px;
+}
+ul.social li i.gp{
+	background-position:-48px 0px;
+}
+ul.social li i.pin{
+	background-position:-72px 0px;
+}
+	
+>>>>>>> origin/master
 	
 /***** ABOUT PAGE *****/
 
