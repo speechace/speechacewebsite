@@ -124,6 +124,42 @@ h2 {
 	}
 	
 	
+/** Social **/
+.top-social{
+	float:left;
+	width:30%
+}
+ul.social {
+	margin-top: 17px;
+	float:right;
+}
+ul.social li{
+	display:inline-block;
+	margin:0px 10px;
+}
+ul.social li i{
+	width:20px;
+	height:20px;
+	background:url(../img/img-sprite.png) no-repeat;
+	display:inline-block;
+	cursor: pointer;
+}
+ul.social li i:hover{
+	opacity:0.5;
+}
+ul.social li i.fa{
+	background-position:0px 0px;
+}
+ul.social li i.tw{
+	background-position:-24px 0px;
+}
+ul.social li i.gp{
+	background-position:-48px 0px;
+}
+ul.social li i.pin{
+	background-position:-72px 0px;
+}
+	
 	
 /***** ABOUT PAGE *****/
 
