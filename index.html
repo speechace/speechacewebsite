@@ -20,6 +20,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css" />
 <link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
 <link href="css/media-queries.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 <meta name="viewport" content="width=device-width" />
@@ -27,8 +28,6 @@
 <link href='http://fonts.googleapis.com/css?family=Exo:400,800' rel='stylesheet' type='text/css'>
 
 </head>
-
-<body data-spy="scroll">
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,11 +38,48 @@
   ga('send', 'pageview');
 
 </script>
-<!-- TOP MENU NAVIGATION -->
-<div class="navbar navbar-fixed-top">
+<body data-spy="scroll">
 
+<!-- TOP MENU NAVIGATION -->
+ <!-- Navbar
+    ================================================== -->
+<!--     <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+		<a class="brand" href="#home">SpeechAce</a>
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+    
+          <div class="nav-collapse collapse">
+            <ul id="nav-list" class="nav pull-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#demo">Demo</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#screenshots">Screenshots</a></li>
+					<li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+ -->
+<div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
 		<div class="container">
+	
+			<a class="brand pull-left" href="#">
+			SpeechAce
+			</a>
+	
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+		
 			<div class="nav-collapse collapse">
 				<ul id="nav-list" class="nav pull-right">
 					<li><a href="#home">Home</a></li>
@@ -53,11 +89,13 @@
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			</div>
+		
 		</div>
 	</div>
 </div>
 
 <!-- MAIN CONTENT -->
+
 <div class="container content container-fluid" id="home">
 
 	<!-- HOME -->
@@ -67,7 +105,7 @@
 		<div class="span5 visible-desktop">
 			<img src="img/iphone_updated.png">
 		</div>
-	
+		
 		<!-- APP DETAILS -->
 		<div class="span7">
 	
@@ -77,11 +115,24 @@
 			<div id="app-name">
 				<img src="img/app_name.png" />
 			</div>
-			<br></br>
-			<!-- TAGLINE -->
-			<div id="tagline">
-				Speak American English with confidence!
+			<!-- Social Media-->
+			
+			<div align="center" class="kv-social-bar"><a class="text-info" href="https://www.facebook.com/speechaceapp" title="Join us on Facebook"><i class='fa fa-2x kv-fb-square'></i></a>
+				<a class="text-primary" href="#" title="Join us on Twitter"><i class='fa fa-2x kv-tw-square'></i></a>
+				<a class="text-danger" href="#" title="Join us on Google+"><i class='fa fa-2x kv-gp-square'></i></a>
+				<a class="text-info" href="#" title="Join us on LinkedIn"><i class='fa fa-2x kv-in-square'></i></a>
+				<a class="text-muted" href="#" title="Join us on GitHub"><i class='fa fa-2x kv-gh-square'></i></a>
 			</div>
+		
+		
+			<!-- TAGLINE -->
+			<h1>
+				<strong>Speak American English with confidence!</strong>
+			</h1>
+					
+			<!-- <div id="tagline">
+				<strong>Speak American English with confidence!</strong>
+			</div> -->
 		
 			<!-- PHONES IMAGE FOR TABLET MEDIA QUERY -->
 			<div class="hidden-desktop" id="phones">
@@ -251,6 +302,14 @@
 	<div id="copyright">
 		Copyright © 2014 SpeechAce<br>
 		Built on <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>.
+	</div>
+	
+	<!-- Social Media-->
+	<div align="center" class="kv-social-bar"><a class="text-info" href="https://www.facebook.com/speechaceapp" title="Join us on Facebook"><i class='fa fa-3x kv-fb-square'></i></a>
+		<a class="text-primary" href="#" title="Join us on Twitter"><i class='fa fa-3x kv-tw-square'></i></a>
+		<a class="text-danger" href="#" title="Join us on Google+"><i class='fa fa-3x kv-gp-square'></i></a>
+		<a class="text-info" href="#" title="Join us on LinkedIn"><i class='fa fa-3x kv-in-square'></i></a>
+		<a class="text-muted" href="#" title="Join us on GitHub"><i class='fa fa-3x kv-gh-square'></i></a>
 	</div>
 	
 	<!-- CREDIT - PLEASE LEAVE THIS LINK! -->
